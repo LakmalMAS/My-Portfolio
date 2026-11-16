@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="description" content="Multimedia portfolio of M.A. Shanaka Lakmal, Sri Lanka. Film and production, real-time 3D, games, web design and branding.">
+  <meta property="og:title" content="Shanaka Lakmal · Multimedia Portfolio">
+  <meta property="og:description" content="Projects in film and production, real-time 3D, games, web design and branding.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <title>Shanaka Lakmal · Multimedia Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="portfolio.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Shanaka Lakmal, home"><span class="monogram">SL<span>.</span></span><span class="brand-name">Shanaka Lakmal</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-link" href="https://www.behance.net/gallery/258587207/Shanaka-Lakmal-Creative-Portfolio">Behance <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <picture class="hero-picture">
+        <source media="(max-width: 700px)" srcset="assets/hero-mobile.webp">
+        <img src="assets/hero.webp" width="1760" height="760" fetchpriority="high" alt="A small figure in a blue-lit forest from The Cursed Child">
+      </picture>
+      <div class="hero-shade"></div>
+      <div class="shell hero-inner">
+        <p class="eyebrow">Multimedia portfolio <span></span> Sri Lanka</p>
+        <h1 id="hero-title">Shanaka<br>Lakmal<span>.</span></h1>
+        <p class="hero-copy">Film and production, real-time 3D, games, and visual design.</p>
+        <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+      </div>
+      <a class="hero-credit" href="https://www.behance.net/gallery/258582657/The-Cursed-Child-Unreal-Engine-Cinematic-Teaser">The Cursed Child <span>RI Studios ↗</span></a>
+    </section>
+
+    <section class="work shell" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <h2 id="work-title">Portfolio<span>.</span></h2>
+        <p><span id="project-count" aria-live="polite">15 projects</span> <span class="section-note">· Full case studies on Behance</span></p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter projects" hidden>
+        <button type="button" data-filter="all" aria-pressed="true">All work</button>
+        <button type="button" data-filter="realtime" aria-pressed="false">Unreal Engine &amp; Games</button>
+        <button type="button" data-filter="characters" aria-pressed="false">3D &amp; Animation</button>
+        <button type="button" data-filter="production" aria-pressed="false">Film &amp; Production</button>
+        <button type="button" data-filter="design" aria-pressed="false">Web &amp; Branding</button>
+      </div>
+      <div class="gallery" id="gallery">
+        <article class="project featured" data-group="realtime">
+    <a class="project-media" href="https://www.behance.net/gallery/258582657/The-Cursed-Child-Unreal-Engine-Cinematic-Teaser" aria-label="View The Cursed Child on Behance"><img src="assets/project-01.webp" alt="A child among the shadowed trees in a frozen forest" width="1160" height="540" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Unreal Engine &amp; Games</p>
+      <h3><a href="https://www.behance.net/gallery/258582657/The-Cursed-Child-Unreal-Engine-Cinematic-Teaser">The Cursed Child <span aria-hidden="true">↗</span></a></h3>
+      <p>A child carries a sapphire flame that gives off cold. Fog and blue light set the tone for the title reveal.</p>
+    </div>
+  </article>
+        <article class="project" data-group="production">
+    <a class="project-media" href="https://www.behance.net/gallery/258563597/Take-a-Breath-Experimental-Ai-Production" aria-label="View Take a Breath on Behance"><img src="assets/project-02.webp" alt="Kasun and Sara sit in a rainy bus shelter" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Film &amp; Production</p>
+      <h3><a href="https://www.behance.net/gallery/258563597/Take-a-Breath-Experimental-Ai-Production">Take a Breath <span aria-hidden="true">↗</span></a></h3>
+      <p>At a rainy bus stop, a conversation with Sara and a paper boat give Kasun a reason to look up from his phone.</p>
+    </div>
+  </article>
+        <article class="project" data-group="characters">
+    <a class="project-media" href="https://www.behance.net/gallery/258579939/Crotana-3D-Character-Study" aria-label="View Crotana on Behance"><img src="assets/project-03.webp" alt="Finished full-body Crotana model in black and gold" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">3D &amp; Animation</p>
+      <h3><a href="https://www.behance.net/gallery/258579939/Crotana-3D-Character-Study">Crotana <span aria-hidden="true">↗</span></a></h3>
+      <p>A black suit, gold mask, and high ponytail define Crotana’s silhouette. Viktor’s Soldiers from Arcane were the visual reference.</p>
+    </div>
+  </article>
+        <article class="project" data-group="production">
+    <a class="project-media" href="https://www.behance.net/gallery/247033019/Multi-Camera-TV-Show-Branding-Production-Package" aria-label="View Today Morning with Sithmi &amp; Maneth on Behance"><img src="assets/project-04.webp" alt="Hosts and guest on the Today Morning set" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Film &amp; Production</p>
+      <h3><a href="https://www.behance.net/gallery/247033019/Multi-Camera-TV-Show-Branding-Production-Package">Today Morning with Sithmi &amp; Maneth <span aria-hidden="true">↗</span></a></h3>
+      <p>A collaborative show package that carries the Today Morning identity from the studio screen into broadcast graphics and promotional material.</p>
+    </div>
+  </article>
+        <article class="project" data-group="design">
+    <a class="project-media" href="https://www.behance.net/gallery/258579467/CEIDE-A-Creative-Launchpad-for-3D-Artists" aria-label="View CEIDE — A Creative Launchpad for 3D Artists on Behance"><img src="assets/project-05.webp" alt="CEIDE home page with the purple CRT mascot" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Web &amp; Branding</p>
+      <h3><a href="https://www.behance.net/gallery/258579467/CEIDE-A-Creative-Launchpad-for-3D-Artists">CEIDE — A Creative Launchpad for 3D Artists <span aria-hidden="true">↗</span></a></h3>
+      <p>A website for aspiring 3D artists. Visitors can take short lessons, build and export a portfolio, and bookmark studios.</p>
+    </div>
+  </article>
+        <article class="project" data-group="realtime">
+    <a class="project-media" href="https://www.behance.net/gallery/258581467/Embers-in-the-Fog-Unreal-Engine-5-Cinematic" aria-label="View Embers in the Fog on Behance"><img src="assets/project-06.webp" alt="A foggy log cabin with orange embers passing above it" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Unreal Engine &amp; Games</p>
+      <h3><a href="https://www.behance.net/gallery/258581467/Embers-in-the-Fog-Unreal-Engine-5-Cinematic">Embers in the Fog <span aria-hidden="true">↗</span></a></h3>
+      <p>A camera move from a torch-lit room into a foggy clearing reveals a cabin as bright embers pass overhead.</p>
+    </div>
+  </article>
+        <article class="project" data-group="realtime">
+    <a class="project-media" href="https://www.behance.net/gallery/258569547/Serendib-Still-Breathes-Game-Development" aria-label="View Serendib Still Breathes — Game Development on Behance"><img src="assets/project-07.webp" alt="Two survivors stand beside a truck under Colombo’s Lotus Tower" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Unreal Engine &amp; Games</p>
+      <h3><a href="https://www.behance.net/gallery/258569547/Serendib-Still-Breathes-Game-Development">Serendib Still Breathes — Game Development <span aria-hidden="true">↗</span></a></h3>
+      <p>A playable Unreal Engine demo set in a fictional post-apocalyptic Sri Lanka. The route runs from a bunker through Jungle Gorge toward Colombo.</p>
+    </div>
+  </article>
+        <article class="project" data-group="realtime">
+    <a class="project-media" href="https://www.behance.net/gallery/248248861/Quest-for-the-Five-Keys-Action-Adventure-Game" aria-label="View Quest for the Five Keys on Behance"><img src="assets/project-08.webp" alt="A glowing blue portal on the coast between rocky cliffs" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Unreal Engine &amp; Games</p>
+      <h3><a href="https://www.behance.net/gallery/248248861/Quest-for-the-Five-Keys-Action-Adventure-Game">Quest for the Five Keys <span aria-hidden="true">↗</span></a></h3>
+      <p>A fantasy adventure organized around five keys. A world map connects the player route, rocky coast, and other environmental set pieces.</p>
+    </div>
+  </article>
+        <article class="project" data-group="realtime">
+    <a class="project-media" href="https://www.behance.net/gallery/248251369/Recreation-Blade-Runner-2049-in-Unreal-Engine-5" aria-label="View Blade Runner 2049 — Unreal Engine 5 Recreation on Behance"><img src="assets/project-09.webp" alt="A lone silhouette in the dusty orange Las Vegas landscape" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Unreal Engine &amp; Games</p>
+      <h3><a href="https://www.behance.net/gallery/248251369/Recreation-Blade-Runner-2049-in-Unreal-Engine-5">Blade Runner 2049 — Unreal Engine 5 Recreation <span aria-hidden="true">↗</span></a></h3>
+      <p>An environment and lighting study of the film’s Las Vegas sequence. Orange haze softens the distant forms and isolates the silhouette.</p>
+    </div>
+  </article>
+        <article class="project" data-group="characters">
+    <a class="project-media" href="https://www.behance.net/gallery/248237149/Mechanical-Creatures-Module-Rigging-Animation" aria-label="View Mecha-Scorpion — Rigging &amp; Animation on Behance"><img src="assets/project-10.webp" alt="The scorpion rig in a posed animation frame" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">3D &amp; Animation</p>
+      <h3><a href="https://www.behance.net/gallery/248237149/Mechanical-Creatures-Module-Rigging-Animation">Mecha-Scorpion — Rigging &amp; Animation <span aria-hidden="true">↗</span></a></h3>
+      <p>A mechanical scorpion built from a hard-surface blockout and custom IK rig. Four motion cycles test how the joints move together.</p>
+    </div>
+  </article>
+        <article class="project" data-group="production">
+    <a class="project-media" href="https://www.behance.net/gallery/258570569/The-Conjuring-The-Arrival-(AI-Film-Production)" aria-label="View The Conjuring — The Arrival on Behance"><img src="assets/project-11.webp" alt="Sadie waits outside the open door of a dark farmhouse" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Film &amp; Production</p>
+      <h3><a href="https://www.behance.net/gallery/258570569/The-Conjuring-The-Arrival-(AI-Film-Production)">The Conjuring — The Arrival <span aria-hidden="true">↗</span></a></h3>
+      <p>The Perron family arrives at a farmhouse in 1971. Their dog Sadie stops at the doorway.</p>
+    </div>
+  </article>
+        <article class="project" data-group="production">
+    <a class="project-media" href="https://www.behance.net/gallery/249564139/Advatisment" aria-label="View Ceylan Trees Villa — Advertisement on Behance"><img src="assets/project-12.webp" alt="A dark-roofed villa surrounded by greenery" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Film &amp; Production</p>
+      <h3><a href="https://www.behance.net/gallery/249564139/Advatisment">Ceylan Trees Villa — Advertisement <span aria-hidden="true">↗</span></a></h3>
+      <p>A hospitality campaign for a countryside villa in Kataragama. The production materials pair the woodland setting with a restrained green identity.</p>
+    </div>
+  </article>
+        <article class="project" data-group="design">
+    <a class="project-media" href="https://www.behance.net/gallery/258574243/Steam-Style-Storefront-Concept" aria-label="View Steam-Style Storefront Concept on Behance"><img src="assets/project-13.webp" alt="Storefront prototype with game trailer, screenshot gallery and store actions" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Web &amp; Branding</p>
+      <h3><a href="https://www.behance.net/gallery/258574243/Steam-Style-Storefront-Concept">Steam-Style Storefront Concept <span aria-hidden="true">↗</span></a></h3>
+      <p>A storefront concept for Serendib Still Breathes, with a trailer, screenshots, newsroom, and discussions.</p>
+    </div>
+  </article>
+        <article class="project" data-group="design">
+    <a class="project-media" href="https://www.behance.net/gallery/258573709/Serendib-Still-Breathes-Game-Showcase-Website" aria-label="View Serendib Still Breathes — Game Showcase Website on Behance"><img src="assets/project-14.webp" alt="Game showcase home page for Serendib Still Breathes" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Web &amp; Branding</p>
+      <h3><a href="https://www.behance.net/gallery/258573709/Serendib-Still-Breathes-Game-Showcase-Website">Serendib Still Breathes — Game Showcase Website <span aria-hidden="true">↗</span></a></h3>
+      <p>The website introduces the bunker, Jungle Gorge, and Colombo through a world explorer. It also hosts the trailer, a filterable gallery, and a press kit.</p>
+    </div>
+  </article>
+        <article class="project" data-group="design">
+    <a class="project-media" href="https://www.behance.net/gallery/248239079/Brand-Identity-Packaging-Redesign-Lays-Flamin-Hot" aria-label="View Lay’s Flamin’ Hot — Packaging Redesign on Behance"><img src="assets/project-15.webp" alt="Two Lay’s Flamin’ Hot bag mockups with chili and chip illustrations" width="790" height="510" loading="lazy"></a>
+    <div class="project-copy">
+      <p class="eyebrow">Web &amp; Branding</p>
+      <h3><a href="https://www.behance.net/gallery/248239079/Brand-Identity-Packaging-Redesign-Lays-Flamin-Hot">Lay’s Flamin’ Hot — Packaging Redesign <span aria-hidden="true">↗</span></a></h3>
+      <p>A redesign that simplifies the type and uses higher contrast. The identity extends from chip bags to STAX cans and point-of-sale materials.</p>
+    </div>
+  </article>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="shell about-grid">
+        <figure class="portrait">
+          <img src="assets/portrait.webp" width="680" height="735" loading="lazy" alt="M.A. Shanaka Lakmal in a dark suit and blue tie">
+          <figcaption>Padukka, Sri Lanka</figcaption>
+        </figure>
+        <div class="about-copy">
+          <h2 id="about-title">About me<span>.</span></h2>
+          <p class="about-intro">I’m M.A. Shanaka Lakmal, a multimedia graduate from NSBM Green University. I work across real-time 3D, video production, and digital design.</p>
+          <div class="experience">
+            <p class="eyebrow">Studio experience · May–September 2026</p>
+            <h3>RI Studios</h3>
+            <p class="role">Unreal Engine Artist &amp; Developer Intern</p>
+            <p>I assembled a cinematic teaser in Unreal Engine, working with writers, artists and animators. I also refined game lighting and built Steam multiplayer menus and session joining in Blueprints.</p>
+          </div>
+          <div class="education">
+            <p class="eyebrow">Education · 2026</p>
+            <h3>BSc in Multimedia</h3>
+            <p class="role">NSBM Green University</p>
+          </div>
+        </div>
+      </div>
+      <div class="shell skills" aria-label="Creative skills and tools">
+        <div><h3>Film &amp; Production</h3><p>Storyboarding, multi-camera production, editing, motion graphics, colour and sound.</p></div>
+        <div><h3>3D &amp; Games</h3><p>Environment design, lighting, cinematics, Blueprints, modelling, rigging and animation.</p></div>
+        <div><h3>Visual Design</h3><p>Brand identity, packaging, web design and interactive prototypes.</p></div>
+        <p class="software"><strong>Tools</strong> Unreal Engine 5, Cinema 4D, Adobe After Effects, Premiere Pro and Photoshop</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-grid">
+        <div>
+          <h2 id="contact-title">Get in touch<span>.</span></h2>
+          <p>For multimedia roles, creative projects, or a copy of my CV, send me a message.</p>
+        </div>
+        <div class="contact-links">
+          <a class="email" href="mailto:lakmalshanaka3@gmail.com">lakmalshanaka3@gmail.com <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/shanaka-lakmal-4b54b4267/">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="https://www.behance.net/gallery/258587207/Shanaka-Lakmal-Creative-Portfolio">Behance portfolio <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="shell"><span>M.A. Shanaka Lakmal</span><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+</body>
+</html>
